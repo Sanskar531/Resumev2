@@ -1,13 +1,96 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald:wght@300&display=swap");
+.nav a {
+  text-decoration: none;
+  color: #ededed;
+  border-color: white;
+  border-style: solid;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav a:hover {
+  animation: onHoverLinks 1.5s infinite;
+}
+
+@keyframes onHoverLinks {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.nav {
+  display: flex;
+  background-color: #191a19;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+  margin: 1.5% 1% 1.5% 1%;
+  padding: 1.5% 1% 1.5% 1%;
+  border-radius: 5px;
+}
+
+.App > * {
+  padding: 1.5% 1% 1.5% 1%;
+  margin: 1.5% 1% 1.5% 1%;
+  border-radius: 5px;
+}
+
+body {
+  margin: 0;
+  background-color: #516beb;
+  font-family: "Oswald", sans-serif;
+}
+
+.home {
+  border-radius: 5px;
+}
+
+.home > div,
+.projects > div {
+  align-items: center;
+  display: flex;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+img {
+  width: 100%;
+}
+
+.home > div:nth-child(odd),
+.projects > div:nth-child(odd) {
+  display: flex;
+  justify-content: left;
+  box-shadow: 5px 5px;
+  border-style: solid;
+}
+
+.home > div:nth-child(even),
+.projects > div:nth-child(even) {
+  box-shadow: -5px 5px;
+  display: flex;
+  justify-content: left;
+  border-style: solid;
+}
+
+.projects div > div {
+  flex-basis: 100%;
+}
+
+.home div h1 {
+  margin-right: 5%;
+  margin-left: 5%;
 }
