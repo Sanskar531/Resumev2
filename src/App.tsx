@@ -6,9 +6,13 @@ import Projects from "./Components/projects";
 import info from "./Content.js";
 
 function App() {
+  let currPath = window.location.pathname;
+  currPath = currPath.slice(1);
+  currPath = currPath.charAt(0).toUpperCase() + currPath.slice(1);
   return (
     <div className="App">
       <Nav />
+      <p className="location"> &gt;{currPath === "" ? "Home" : currPath}</p>
       <BrowserRouter>
         <Routes>
           <Route

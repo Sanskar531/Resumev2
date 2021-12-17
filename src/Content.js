@@ -1,5 +1,8 @@
 import firstPic from "./Components/assets/pic1.jpeg";
 import secondPic from "./Components/assets/pic2.svg";
+import projectPic1 from "./Components/assets/project_1.png";
+import projectPic2 from "./Components/assets/project_2.png";
+import projectPic3 from "./Components/assets/project_3.png";
 
 const constants = {
   homepageInfo: {
@@ -27,6 +30,9 @@ const constants = {
           "Trained the model efficiently up till 55 epochs with weighted cross entropy without overfitting it.",
           "Coded and employed dice coefficient, sensitivity, and specificity as the main metrics to evaluate the model.",
         ],
+        image: projectPic1,
+        github:
+          "https://github.com/Sanskar531/Brain-Tumor-Segmentation-using-Unet",
       },
       {
         title: "Country-Finder App",
@@ -36,6 +42,9 @@ const constants = {
           "Utilized their RESTful API to extract data from the server and displayed it based on the user’s search query.",
           "Formulated a search function to find and search countries with the added feature of selecting a specific country to view its information.",
         ],
+        github: "https://github.com/Sanskar531/Country-Finder",
+        image: projectPic3,
+        website: "https://sanskar531.github.io/Country-Finder/",
       },
       {
         title: "Multiclass Logistic Regression Model ",
@@ -44,6 +53,8 @@ const constants = {
           "Utilized Regularization in the cost function to mitigate the risks of overfitting.",
           "Using the concept of one vs all, created multiple logistic regressors and brought them all together in one multi-class regressor and used the prediction which had the highest confidence to determine the target class.",
         ],
+        github: "https://github.com/Sanskar531/Multi-Class-Logistic-Regression",
+        image: projectPic2,
       },
     ],
   },
