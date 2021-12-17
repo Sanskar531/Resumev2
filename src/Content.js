@@ -1,5 +1,7 @@
 import firstPic from "./Components/assets/pic1.jpeg";
 import secondPic from "./Components/assets/pic2.svg";
+import thirdPic from "./Components/assets/pic3.png";
+import fourthPic from "./Components/assets/pic4.png";
 import projectPic1 from "./Components/assets/project_1.png";
 import projectPic2 from "./Components/assets/project_2.png";
 import projectPic3 from "./Components/assets/project_3.png";
@@ -9,13 +11,23 @@ const constants = {
     content: [
       {
         description:
-          "Hello! I am Sanskar. I am an aspiring web developer/software developer in general who loves coding. Along with this I also love to engage and learn more about AI and  deep/machine learning algorithm field.",
+          "Hello! I am Sanskar. I am an aspiring web developer/software developer in general who loves coding. Along with this I also love to engage and learn more about AI and  deep/machine learning algorithms.",
         image: firstPic,
       },
       {
         description:
           "My love for this field is rooted in the fact that almost every idea you could have can be coded. Given enough time and required knowledge, one can achieve anything.",
         image: secondPic,
+      },
+      {
+        description:
+          "Same can be said about machine learning, the whole idea of why machine learning works is because of fact that the maths behind it is very clever. The maths uses correct answers as leverage to teach algorithms how to predict correctly and accuractly. However, this couldn't have been achieved if computers weren't invented. The growth of computer's hardware paved the path for machine learning to exist.",
+        image: thirdPic,
+      },
+      {
+        description:
+          "Some of my hobbies besides computer science is to learn more about physical and chemical sciences. I would say that I am not very equipped with this field. And the more I learn about it, the more curious I get. Although, I haven't had the time to actually go in depth about the concepts in this field, but, I like to have a casual read every now and then. Likewise, I also like to spend my free time learning some important maths concepts whenever i can because I am not very expericened with undergraduate level mathematics. This helps my curiosity as well as helps in understanding how complex deep learning models work.",
+        image: fourthPic,
       },
     ],
   },
@@ -56,6 +68,18 @@ const constants = {
         github: "https://github.com/Sanskar531/Multi-Class-Logistic-Regression",
         image: projectPic2,
       },
+    ],
+  },
+  skillInfo: {
+    content: [
+      { title: "Python", fluency: 95 },
+      { title: "Data Structure and Algorithms", fluency: 96 },
+      { title: "Javascript", fluency: 92 },
+      { title: "C++", fluency: 95 },
+      { title: "C", fluency: 90 },
+      { title: "Machine Learning", fluency: 85 },
+      { title: "Computer Vision", fluency: 80 },
+      { title: "Web-development", fluency: 85 },
     ],
   },
 };

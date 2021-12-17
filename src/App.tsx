@@ -19,13 +19,21 @@ function App() {
             path="/"
             element={<Home content={info.homepageInfo.content} />}
           />
-          <Route path="/skills" element={<Skills />} />
+          <Route
+            path="/skills"
+            element={<Skills content={info.skillInfo.content} />}
+          />
           <Route
             path="/projects"
             element={<Projects content={info.ProjectInfo.content} />}
           />
         </Routes>
       </BrowserRouter>
+      <div id="linkedIn">
+        <a href="https://www.linkedin.com/in/sanskar-gauchan-b976b81b8/">
+          Find me on linkedin
+        </a>
+      </div>
     </div>
   );
 }

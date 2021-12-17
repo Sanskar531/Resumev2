@@ -12,7 +12,7 @@ const Home: React.FC<Props> = ({ content }: Props) => {
     <div className="home">
       {content.map((item: singleParagraph, ind: number): JSX.Element => {
         return (
-          <div className="desc">
+          <div key={ind} className="desc">
             {ind % 2 === 0 ? (
               <>
                 <div>

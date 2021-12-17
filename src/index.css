@@ -18,8 +18,12 @@ a {
   color: lightblue;
 }
 
+a:hover {
+  text-decoration: underline;
+}
 .nav a:hover {
   animation: onHoverLinks 1.5s infinite;
+  text-decoration: none;
 }
 
 @keyframes onHoverLinks {
@@ -53,7 +57,6 @@ a {
 .App > div {
   padding: 1.5% 1% 1.5% 1%;
   margin: 1.5% 1% 1.5% 1%;
-  border-radius: 5px;
 }
 
 body {
@@ -72,6 +75,11 @@ body {
   display: flex;
   padding: 2%;
   margin-bottom: 2%;
+}
+
+.skills {
+  padding-right: 2%;
+  padding-left: 2%;
 }
 
 img {
@@ -136,4 +144,8 @@ img {
   body {
     font-size: 3rem;
   }
+}
+#linkedIn {
+  margin: 0;
+  padding-left: 1.5%;
 }

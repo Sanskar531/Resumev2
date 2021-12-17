@@ -15,7 +15,7 @@ const Projects: React.FC<projects> = ({ content }: projects) => {
     <div className="projects">
       {content.map((item: project, ind: number): JSX.Element => {
         return (
-          <div className="desc">
+          <div className="desc" key={ind}>
             {ind % 2 === 0 ? (
               <>
                 <div>
