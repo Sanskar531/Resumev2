@@ -7,7 +7,7 @@ import info from "./Content.js";
 
 function App() {
   let currPath = window.location.pathname;
-  currPath = currPath.slice(1);
+  currPath = currPath.slice(10);
   currPath = currPath.charAt(0).toUpperCase() + currPath.slice(1);
   return (
     <div className="App">
@@ -16,15 +16,15 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route
-            path="/"
+            path="/Resumev2"
             element={<Home content={info.homepageInfo.content} />}
           />
           <Route
-            path="/skills"
+            path="/Resumev2/skills"
             element={<Skills content={info.skillInfo.content} />}
           />
           <Route
-            path="/projects"
+            path="/Resumev2/projects"
             element={<Projects content={info.ProjectInfo.content} />}
           />
         </Routes>

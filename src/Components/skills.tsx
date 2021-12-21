@@ -18,24 +18,27 @@ const Skills: React.FC<skills> = ({ content }: skills) => {
   };
   return (
     <div>
-      {content.map((item: skill): JSX.Element => {
-        const progress: React.CSSProperties = {
-          width: `${item.fluency}%`,
-          backgroundColor: "white",
-          margin: "5px",
-          color: "black",
-          paddingLeft: "10px",
-          borderRadius: "inherit",
-        };
-        return (
-          <div className="skills">
-            <h4>{item.title}</h4>
-            <div style={style}>
-              <div style={progress}>{item.fluency}</div>
+      {content.map(
+        (item: skill): JSX.Element => {
+          const progress: React.CSSProperties = {
+            width: `${item.fluency}%`,
+            backgroundColor: "white",
+            margin: "5px",
+            color: "black",
+            paddingLeft: "10px",
+            borderRadius: "inherit",
+            transition: "width 1s linear forwards",
+          };
+          return (
+            <div className="skills">
+              <h4>{item.title}</h4>
+              <div style={style}>
+                <div style={progress}>{item.fluency}</div>
+              </div>
             </div>
-          </div>
-        );
-      })}
+          );
+        }
+      )}
     </div>
   );
 };

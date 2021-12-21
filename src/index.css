@@ -111,13 +111,17 @@ img {
   margin-left: 5%;
 }
 
-@media (max-height: 939px) and (max-width: 1290px) {
+@media (max-height: 823px) and (max-width: 811px) {
   .desc {
     display: flex;
     flex-wrap: wrap;
   }
-  body {
-    font-size: 0.8rem;
+  body * {
+    font-size: 0.85rem;
+  }
+  img {
+    height: 50%;
+    min-width: 50%;
   }
 }
 
