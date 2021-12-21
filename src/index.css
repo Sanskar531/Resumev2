@@ -78,8 +78,11 @@ body {
 }
 
 .skills {
-  padding-right: 2%;
-  padding-left: 2%;
+  padding-right: 5%;
+  padding-left: 1.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
@@ -152,4 +155,11 @@ img {
 #linkedIn {
   margin: 0;
   padding-left: 1.5%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

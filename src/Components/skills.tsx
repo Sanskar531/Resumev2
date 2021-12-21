@@ -17,9 +17,9 @@ const Skills: React.FC<skills> = ({ content }: skills) => {
     borderRadius: "30px",
   };
   return (
-    <div>
-      {content.map(
-        (item: skill): JSX.Element => {
+    <div className="container">
+      <div>
+        {content.map((item: skill): JSX.Element => {
           const progress: React.CSSProperties = {
             width: `${item.fluency}%`,
             backgroundColor: "white",
@@ -37,8 +37,8 @@ const Skills: React.FC<skills> = ({ content }: skills) => {
               </div>
             </div>
           );
-        }
-      )}
+        })}
+      </div>
     </div>
   );
 };

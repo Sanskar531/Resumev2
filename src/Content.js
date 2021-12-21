@@ -11,7 +11,7 @@ const constants = {
     content: [
       {
         description:
-          "Hello! I am Sanskar. I am an aspiring web developer/software developer in general who loves coding. Along with this I also love to engage and learn more about AI and  deep/machine learning algorithms.",
+          "Hello! I am Sanskar. I am an aspiring Web Developer/Software Developer in general who loves coding. Along with this I also love to engage and learn more about AI and  deep/machine learning algorithms.",
         image: firstPic,
       },
       {
@@ -21,12 +21,12 @@ const constants = {
       },
       {
         description:
-          "Same can be said about machine learning, the whole idea of why machine learning works is because of fact that the maths behind it is very clever. The maths uses correct answers as leverage to teach algorithms how to predict correctly and accuractly. However, this couldn't have been achieved if computers weren't invented. The growth of computer's hardware paved the path for machine learning to exist.",
+          "Same can be said about machine learning, the whole idea of why machine learning works is because of the fact that the maths behind it is very clever. The maths uses correct answers as leverage to teach algorithms how to predict correctly and accurately. However, this couldn't have been achieved if computers weren't invented. The growth of computer's hardware paved the path for machine learning to exist.",
         image: thirdPic,
       },
       {
         description:
-          "Some of my hobbies besides computer science is to learn more about physical and chemical sciences. I would say that I am not very equipped with this field. And the more I learn about it, the more curious I get. Although, I haven't had the time to actually go in depth about the concepts in this field, but, I like to have a casual read every now and then. Likewise, I also like to spend my free time learning some important maths concepts whenever i can because I am not very expericened with undergraduate level mathematics. This helps my curiosity as well as helps in understanding how complex deep learning models work.",
+          "Some of my hobbies besides Computer Science is to learn more about Physical and Chemical Sciences. I would say that I am not very equipped with this field. And the more I learn about it, the more curious I get. Although I haven't had the time to actually go in depth about the concepts in this field, but, I like to have a casual read every now and then. Likewise, I also like to spend my free time learning some important Mathematical concepts whenever I can because I am not very experienced with undergraduate level mathematics. This helps my curiosity as well as helps in understanding how complex deep learning models work.",
         image: fourthPic,
       },
     ],
