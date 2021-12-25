@@ -27,7 +27,7 @@ const Skills: React.FC<skills> = ({ content }: skills) => {
             color: "black",
             paddingLeft: "10px",
             borderRadius: "inherit",
-            transition: "width 1s linear forwards",
+            animation: "fillprogress 1s ease-in-out reverse",
           };
           return (
             <div className="skills">

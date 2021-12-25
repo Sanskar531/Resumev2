@@ -16,12 +16,12 @@ const constants = {
       },
       {
         description:
-          "My love for this field is rooted in the fact that almost every idea you could have can be coded. Given enough time and required knowledge, one can achieve anything.",
+          "My love for this field is rooted in the fact that almost every idea you could have can be coded. Given enough time and knowledge, one can achieve anything.",
         image: secondPic,
       },
       {
         description:
-          "Same can be said about machine learning, the whole idea of why machine learning works is because of the fact that the maths behind it is very clever. The maths uses correct answers as leverage to teach algorithms how to predict correctly and accurately. However, this couldn't have been achieved if computers weren't invented. The growth of computer's hardware paved the path for machine learning to exist.",
+          "Same can be said about machine learning, the whole idea of why machine learning works is because of the fact that  maths behind it is very clever. The maths uses correct answers as leverage to teach algorithms how to predict correctly and accurately. However, this couldn't have been achieved if computers weren't invented. The growth of computer's hardware paved the path for machine learning to exist.",
         image: thirdPic,
       },
       {
@@ -73,7 +73,7 @@ const constants = {
   skillInfo: {
     content: [
       { title: "Python", fluency: 95 },
-      { title: "Data Structure and Algorithms", fluency: 96 },
+      { title: "Data Structures and Algorithms", fluency: 96 },
       { title: "Javascript", fluency: 92 },
       { title: "C++", fluency: 95 },
       { title: "C", fluency: 90 },
